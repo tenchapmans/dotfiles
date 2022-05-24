@@ -1,0 +1,5 @@
+## my personal functions that are not specifically aliases. 
+
+eval "$(ssh-agent)"
+
+
