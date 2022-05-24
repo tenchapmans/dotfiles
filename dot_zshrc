@@ -116,7 +116,7 @@ export HISTCONTROL=ignoreboth:erasedups
 # Make nano the default editor
 
 export EDITOR='lvim'
-export VISUAL='lvim'
+export VISUAL='code'
 
 #PS1='[\u@\h \W]\$ '
 
@@ -429,6 +429,9 @@ alias personal='cp -Rf /personal/* ~'
 [[ -f ~/.zshrc-personal ]] && . ~/.zshrc-personal
 
 [[ -f ~/.aliases ]] && . ~/.aliases
+
+
+
 # reporting tools - install when not installed
 #neofetch
 #screenfetch
