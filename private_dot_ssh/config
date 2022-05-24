@@ -1,0 +1,28 @@
+### default for all ##
+Host *
+     ForwardAgent no
+     ForwardX11 no
+     ForwardX11Trusted no
+     User acchapm1
+     Port 22
+     ServerAliveInterval 240
+     ServerAliveCountMax 5
+
+Host stumpy
+  HostName 192.186.86.77
+  User ac
+
+Host agave
+  HostName agave.asu.edu
+  User acchapm1
+  IdentityFile ~/.ssh/id_rsa
+
+Host sol
+  HostName 10.139.120.20
+  User acchapm1
+  IdentityFile ~/.ssh/id_rsa.pub
+
+Host salt
+  HostName 10.126.25.3
+  User acchapm1
+
